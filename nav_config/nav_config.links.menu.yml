@@ -1,0 +1,6 @@
+nav_config.form:
+  route_name: nav_config.form
+  title: 'Navigation Configuration Settings'
+  parent: system.admin_config_development
+  decription: 'Switch between two different navigation layouts'
+  menu_name: devel 

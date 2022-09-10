@@ -1,0 +1,7 @@
+nav_config.form:
+  path: 'admin/config/nav-settings'
+  defaults:
+    _title: 'Navigation Configuration Settings'
+    _form: '\Drupal\nav_config\Form\navForm'
+  requirements:
+    _permission: 'access Navigation Configuration content'

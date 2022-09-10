@@ -1,0 +1,10 @@
+<?php
+
+// Getting RWT Variables
+function nav_config_get_vars(){
+  $nav_vars = new stdClass();
+  $config = \Drupal::config('nav_config.settings');
+  $nav_variables = $config->get();
+
+  return $nav_variables;
+}
